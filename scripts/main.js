@@ -1,8 +1,8 @@
 $.getJSON('./collection.json', function(json) {
-  console.log(json);
+  //console.log(json);
   items = json["items"];
   for (var i = 0; i < items.length; i++) {
-    console.log(json["items"][i]);
+    //console.log(json["items"][i]);
     let divId = json['items'][i]["id"];
     let figureId = json['items'][i]["id"] + '_figure';
     let imgId = json['items'][i]["id"] + '_img';

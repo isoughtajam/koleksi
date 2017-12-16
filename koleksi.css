@@ -1,18 +1,19 @@
 body {
 	font-family: 'PT Sans', sans-serif;
+  position: relative;
 }
 
-/*@font-face {
-  font-family: 'Jura Medium';
-  src: local('Jura Medium'), url('fonts/Jura-Medium.ttf');
-}*/
-
-.header {
+.title {
   margin-left: 40px;
 }
 
+.container {
+  margin: 120px 0 0 40px;
+  min-height: 200px;
+  overflow: scroll;
+}
+
 .artikal {
-  margin: 40px 0 0 40px;
   display: inline-block;
   vertical-align: top;
 }
@@ -37,9 +38,18 @@ body {
   text-decoration: none;
 }
 
+small {
+  font-size: 14pt;
+}
 
-# hover effect
-.figi:hover .tekst {
-  visibility: visible;
-  opacity: 1;
+div#main {
+  margin-bottom: 10px;
+}
+
+div#footer {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  margin-top: 10px;
+  margin-left: 40px;
 }
